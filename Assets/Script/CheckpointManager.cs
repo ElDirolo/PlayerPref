@@ -28,7 +28,7 @@ public class CheckpointManager : MonoBehaviour
         PlayerPrefs.SetFloat("y", y);
         PlayerPrefs.SetFloat("z", z);
 
-        posicionText.text = "Posicion: " + PlayerPrefs.GetFloat("x").ToString() + "x " + PlayerPrefs.GetFloat("y").ToString() + "y " + PlayerPrefs.GetFloat("z").ToString() + "z ";
+        posicionText.text = "CheckPoint: " + PlayerPrefs.GetFloat("x").ToString() + "x " + PlayerPrefs.GetFloat("y").ToString() + "y " + PlayerPrefs.GetFloat("z").ToString() + "z ";
     }
 
     public void LoadData()
